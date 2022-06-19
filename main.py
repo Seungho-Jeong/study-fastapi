@@ -1,4 +1,7 @@
-from fastapi import FastAPI
+from enum import Enum
+
+from main import FastAPI
+from pydantic import BaseModel
 
 app = FastAPI()
 
